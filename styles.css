@@ -1,0 +1,142 @@
+/* 
+display: flex
+flex direction: row, column
+justify-content:
+    start, center, end, space-around, 
+    space-evenly, space-between
+    
+    align-items:
+    start, center, end
+
+
+    REMEMBER THE MAIN AXIS AND CROSS AXIS CHANGE WHEN YOU CHANGE THE FLEX DIRECTION 
+
+    */
+
+
+@font-face {
+    font-family: 'Bitcheese';
+    src: url(fonts/Bitcheese.ttf);
+}
+
+
+body {
+    background: linear-gradient( #EFB0C9, #f49696 );
+    font-family: 'Bitcheese';
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px #000000 ;
+
+.text-shadow {
+    text-shadow: 0px 0px 1px #000000 ;
+}
+
+    
+}
+#header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+}
+
+#main-image {
+    
+    width: 140px;
+    border-radius: 50%;
+    border: 5px solid #77a6ff ;
+
+}
+
+#bday-age {
+    background-color: #77a6ff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin: 10 0 5 0;
+    font-family: 'Happy Monkey', cursive; 
+}
+
+#bday-date {
+    background-color: #77a6ff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.gift-section {
+      
+       margin-top: 50px;
+}
+
+.h2-gift-text {
+    font-size: 30px;
+    text-shadow: 0px 0px 1px #000000 ;
+}
+
+.h3-gift-text {
+    font-size: 26px;
+    text-shadow: 0px 0px 1px #000000 ;
+}
+
+.gift-img {
+    margin: 0 auto;
+    background-image: url(images/gift-box.png);
+    border: 5px solid #ffffff;
+    border-radius: 5px;
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url(images/cheers.gif);
+   
+    
+}
+
+#gift-img-happy:hover {
+    background-image: url(images/happy.gif);
+    height: 400px;
+    width: 400px;
+}
+
+
+#gift-img-hot:hover {
+    background-image: url(images/hot.gif);
+    height: 400px;
+    width: 400px;
+    
+}
+
+#gift-img-genius:hover {
+    background-image: url(images/genius.gif);
+    
+  
+}
+
+#gift-img-badass:hover {
+    background-image: url(images/badass.gif);
+    height: 400px;
+    width: 400px;
+    
+}
+
+#footer {
+    font-style: italic;
+    margin: 50 auto;
+    font-family: 'Happy Monkey', cursive;
+}
+
+a {
+    color: white;
+}
+
+
+
